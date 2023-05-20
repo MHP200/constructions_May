@@ -4,3 +4,10 @@ body {
     background-attachment: fixed;  
     background-size: cover;
 }
+
+.about-page {
+    background-image: url('https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/070823-Housing-Elk-Grove-RL-CM-23.jpg?fit=1200%2C800&ssl=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
