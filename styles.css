@@ -11,3 +11,10 @@ body {
     background-attachment: fixed;  
     background-size: cover;
 }
+.ContactUs-page {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/54526442e4b04057136c3dbc/1414769131997-2GM1DQ9H3L9ZQXQMLF9Y/contact+us+1.jpg?format=2500w');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: contain;
+    background-position: center top;
+}
