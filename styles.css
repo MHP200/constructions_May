@@ -1,16 +1,19 @@
 body {
-    background-image: url('https://t3.ftcdn.net/jpg/03/16/55/26/360_F_316552667_qw2le2qIyhgzPnqpLkkK6YfkYFQsEKeu.jpg');
+    background-image: url('https://i.pinimg.com/originals/ce/d2/d0/ced2d0cc1832708a6a1ee95df0e285a1.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+    background-size: 90%; 
+    background-position: center
 }
 
 .about-page {
     background-image: url('https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/070823-Housing-Elk-Grove-RL-CM-23.jpg?fit=1200%2C800&ssl=1');
     background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-}
+    background-attachment: fixed;
+   
+  }
+  
 .ContactUs-page {
     background-image: url('https://images.squarespace-cdn.com/content/v1/54526442e4b04057136c3dbc/1414769131997-2GM1DQ9H3L9ZQXQMLF9Y/contact+us+1.jpg?format=2500w');
     background-repeat: no-repeat;
