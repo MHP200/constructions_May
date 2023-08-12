@@ -32,7 +32,6 @@ body {
 .project-card img {
     max-width: 70%;
     border-radius: 5px;
-    align: center;
 }
 
 .project-card h3 {
