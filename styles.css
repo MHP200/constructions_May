@@ -7,11 +7,12 @@ body {
     background-position: center;
   }
   
+  
   .about-page {
     background-image: url('https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/070823-Housing-Elk-Grove-RL-CM-23.jpg?fit=1200%2C800&ssl=1');
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
+  } 
   
   .ContactUs-page {
     background-image: url('https://images.squarespace-cdn.com/content/v1/54526442e4b04057136c3dbc/1414769131997-2GM1DQ9H3L9ZQXQMLF9Y/contact+us+1.jpg?format=2500w');

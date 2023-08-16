@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<body class="about-page">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #ffffff;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #333;
+        }
+        .navbar-toggler-icon {
+            background-color: #333;
+        }
+        .navbar-nav .nav-link {
+            color: #333;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .container h1 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            color: #333;
+        }
+        .container p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.6;
+        }
+        .img-fluid {
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
-<body>
+<body class="about-page">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">BuildMaster</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,9 +61,10 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
+    <div class="container text-center">
         <h1>About Us</h1>
-        <p>Established over three decades ago, our construction company started its journey in a modest city office with a dream of creating better-built environments. We were founded on the principle of high-quality construction coupled with meticulous attention to detail. From a small team with a shared vision, we've grown into a collective of construction professionals, all dedicated to building projects that exceed client expectations. We consider ourselves more than just builders - we are architects, engineers, and project managers, unified by our commitment to bringing our clients' visions to life. We don't just execute projects; we ensure every job is completed with precision, delivered on time, and within budget. We believe in building more than just structures - we strive to build strong relationships, sustainable communities, and a legacy of excellence. As we look towards the future, we remain excited about our continuous growth, industry innovation, and above all, building a better world in partnership with our clients.</p>
+        <img src="https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/070823-Housing-Elk-Grove-RL-CM-23.jpg?fit=1200%2C800&ssl=1" alt="Construction Image" class="img-fluid">
+        <p style="margin-top: 1.5rem;">Established over three decades ago, our construction company started its journey in a modest city office with a dream of creating better-built environments. We were founded on the principle of high-quality construction coupled with meticulous attention to detail. From a small team with a shared vision, we've grown into a collective of construction professionals, all dedicated to building projects that exceed client expectations. We consider ourselves more than just builders - we are architects, engineers, and project managers, unified by our commitment to bringing our clients' visions to life. We don't just execute projects; we ensure every job is completed with precision, delivered on time, and within budget. We believe in building more than just structures - we strive to build strong relationships, sustainable communities, and a legacy of excellence. As we look towards the future, we remain excited about our continuous growth, industry innovation, and above all, building a better world in partnership with our clients.</p>
         <!-- More content goes here -->
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
